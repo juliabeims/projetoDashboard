@@ -26,7 +26,7 @@ class MongoData:
             })
 
         self.filter_list = [post for post in self.filter]
-
+       
         self.df = pd.DataFrame(self.filter_list)
         return self.df
 
